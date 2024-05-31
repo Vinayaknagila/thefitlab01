@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44119963936",
+    "project_id": "thefitlab01-f126d",
+    "storage_bucket": "thefitlab01-f126d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44119963936:android:cb0ce67d7677541d483f45",
+        "android_client_info": {
+          "package_name": "com.example.thefitlab01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhKk9-9--KzSgCm12vi_AxmdnF6vhFN_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

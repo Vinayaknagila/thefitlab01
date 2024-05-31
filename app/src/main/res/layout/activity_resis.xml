@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/youcann"
+    tools:context=".Fullbody">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="374dp"
+        android:layout_height="644dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="149dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="70dp"
+            android:layoutDirection="inherit"
+            android:text="Front Delts"
+            android:textAlignment="center"
+            android:textSize="28dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="149dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="370dp"
+            android:layoutDirection="inherit"
+            android:text="HamStrings"
+            android:textAlignment="center"
+            android:textSize="28dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="149dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="230dp"
+            android:layoutDirection="inherit"
+            android:text="Rear Delts"
+            android:textAlignment="center"
+            android:textSize="28dp">>
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="146dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="200dp"
+            android:layoutDirection="inherit"
+            android:text="Squats"
+            android:textAlignment="center"
+            android:textSize="26dp">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/waterbutton1"
+        android:layout_width="123dp"
+        android:layout_height="127dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="151dp"
+        app:cardCornerRadius="21dp"
+        app:cardElevation="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/res3">
+
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/waterbutton15"
+        android:layout_width="123dp"
+        android:layout_height="127dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="216dp"
+        app:cardCornerRadius="21dp"
+        app:cardElevation="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/res4">
+
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/waterbutton1555"
+        android:layout_width="123dp"
+        android:layout_height="127dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="302dp"
+        app:cardCornerRadius="21dp"
+        app:cardElevation="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/res2">
+
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/waterbutton155"
+        android:layout_width="123dp"
+        android:layout_height="127dp"
+        android:layout_gravity="left"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="453dp"
+        app:cardCornerRadius="21dp"
+        app:cardElevation="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/res1">
+
+            </ImageView>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

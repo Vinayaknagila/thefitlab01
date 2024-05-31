@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Thefitlab01"
+        tools:targetApi="31">
+        <activity
+            android:name=".SetTarget"
+            android:exported="false" />
+        <activity
+            android:name=".waterReminder"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:theme="@style/Base.Theme.Thefitlab01" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Shavasana"
+            android:exported="false" />
+        <activity
+            android:name=".Balasana"
+            android:exported="false" />
+        <activity
+            android:name=".Adhomukha"
+            android:exported="false" />
+        <activity
+            android:name=".Trikonasana"
+            android:exported="false" />
+        <activity
+            android:name=".Bridge"
+            android:exported="false" />
+        <activity
+            android:name=".Plank"
+            android:exported="false" />
+        <activity
+            android:name=".Mtnclimber"
+            android:exported="false" />
+        <activity
+            android:name=".ToeTouch"
+            android:exported="false" />
+        <activity
+            android:name=".Pushups"
+            android:exported="false" />
+        <activity
+            android:name=".BulgSquats"
+            android:exported="false" />
+        <activity
+            android:name=".Squats"
+            android:exported="false" />
+        <activity
+            android:name=".Timer"
+            android:exported="false" />
+        <activity
+            android:name=".Fullbody"
+            android:exported="false" />
+        <activity
+            android:name=".Yoga"
+            android:exported="false" />
+        <activity
+            android:name=".resis"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".User"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Alarmmanager" />
+    </application>
+
+</manifest>
